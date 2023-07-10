@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div id="container" class="container">
+        <div class="header">
+            <h1 class="todoHeader">To Do</h1>
+            <p class="displayMessage" id="displayMessage">All tasks</p>
+        </div>
+        <div class="sidebar">
+            <h1>Home</h1>
+                <div class="all" id="all">All tasks</div>
+                <div class="today" id="today">Today</div>
+                <div class="week" id="week">Week</div>
+
+            <h1>Projects</h1>
+                <div id="projects" class="projects">
+                    <div class="project" id="project">House</div>
+                    <div class="project" id="project">Baby</div>
+                    <div class="userProject" id="userProject"></div>
+                </div>
+            <button class="newProject" id="newProject">+ Add Project</button>
+            <div class="projectPopUp" id="projectPopUp">
+                <div class="buttonContainer">
+                    <input id="projectInput" class="projectInput" placeholder="Enter Project Name" type="text" required>
+                    <button class="projectAdd" id="projectAdd">Add</button>
+                    <button class="projectCancel" id="projectCancel">Cancel</button>
+                </div>
+                <div class="projectMessage" id="projectMessage"></div>
+            </div>
+        </div>
+        <div class="main" id="main">
+            <div class="message" id="message"></div>
+            <div class="tasks" id="tasks"></div>
+        </div>
+        
+    </div>
+</body>
+</html>
