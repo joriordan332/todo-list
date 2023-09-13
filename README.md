@@ -11,4 +11,4 @@ Features of the project
 * Enter the task name, description, date it needs to be completed and the priority of it e.g. low, medium or high
 * Mark which projects are already complete with a checkbox
 * Filter for each project by clicking on them on the sidebar
-* Filter for each project by the date they need to be completed e.g. today, this week or all tasks
+* Filter for each project by the date they need to be completed e.g. today, this week or all tasks    
